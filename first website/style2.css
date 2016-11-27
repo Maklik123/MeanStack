@@ -1,0 +1,57 @@
+ body{
+               
+ }
+header h2{
+    
+    display: inline-block;
+    float: left;
+}  
+header ul{
+    margin-bottom: 10px;
+    display: inline-block;
+    float: right;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: auto;
+   
+}
+#imgsec{
+    background-repeat: cover;
+}
+.top-header{
+    
+}
+#first{
+    margin-left: 250px;
+}
+#second{
+    margin-right: 250px;
+}
+#secondimage{
+    margin-left: 250px;
+}
+#btn1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+   
+    cursor: pointer;
+}
+#btn2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+   
+    cursor: pointer;
+}
+#label1{
+    display: inline-block;
+}
+#id{
+    display: inline-block;
+    
+}
