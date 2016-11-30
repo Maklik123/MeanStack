@@ -7,35 +7,6 @@ p{
 .lastTest{
     font-family: 'Courgette';
 }
-button{
-    font-family: 'Prociono';
-    background-color: 1C1045;
-    color: #ecf0f1;
-}
-.cover{
-    background-image: url('image.jpg');
-    
-    width: 100%;
-    height: 100%;
-   padding: 20vw 5em;
-    clear: both;    
-}
-.cover h2{
-    font-size: 2.5em;
-    border-radius: 50px;
-    background-color: rgba(44,62,80,0.4);
-    padding: 10px 30px 10px 30px;
-    text-align: center;
-    
-}
-.cover p{
-     font-size: 2.2em;
-    clear: both;
-    text-align: center;
-}
-.cover h2, .cover p{
-    color: papayawhip;
-}
 .logo{
     padding: 0;
     margin:  0;
@@ -43,8 +14,48 @@ button{
 .logo span{
     font-weight:bold;
 }
+
+.cover{
+    background-image: url('../img/image.jpg') ;
+    
+    clear: both;  
+    width: auto;
+    height: auto;
+    padding-top: 100%;
+    padding-bottom: 100%;
+   padding: 20vw 5em;
+    align-content: center;
+      
+    
+    
+    
+    
+}
+.cover h2{
+    font-size: 2.5em;
+    border-radius: 50px;
+    background-color: rgba(44,62,80,0.4);
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    clear: both;
+    
+}
+.cover p{
+     font-size: 1.5em;
+    clear: both;
+    text-align: center;
+}
+.cover h2, .cover p{
+    color: papayawhip;
+}
+
 footer p span{
     font-weight: bold;
+}
+button{
+    font-family: 'Prociono';
+    background-color: 1C1045;
+    color: #ecf0f1;
 }
 
 
