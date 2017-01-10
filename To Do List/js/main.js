@@ -3,11 +3,11 @@ var DATA = [];
 load();
 var checkbox;
 function insertItem(){
-    takeInput = document.getElementById('item').value;
+    takeInput = document.getElementById('input').value;
 
     DATA.push(takeInput);
     renderJson(DATA);
-    document.getElementById('item').value = "";
+    document.getElementById('input').value="";
 }
 
 function renderJson(data){

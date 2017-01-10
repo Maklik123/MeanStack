@@ -10,5 +10,6 @@ body{
 #sidebar{
     background-color: #34495e;
     font-family: "Tinos";
+    height: auto;
 }
 

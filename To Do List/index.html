@@ -10,7 +10,7 @@
     <body>
         <header>
             <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
-                 <div class="container">
+                 <div>
                      <div class='navbar-header'>
                          <button type="button" class=" navbar-left navbar-toggle" data-toggle="collapse" data-target="#example">
                             <span class="icon-bar"></span>
@@ -30,7 +30,7 @@
         </header>
         <div class="container-fluid" id="bodystart">
             <div class="row-fluid">
-                <div class="span2 col-lg-2" >
+                <div class="span2 col-lg-2 col-md-2 col-sm-2 col-xs-2" id="sidebar" >
                     <div>
                         <ul id="sliderlist">
                             <li><a href="#">All Today's Tasks</a></li>
@@ -41,7 +41,7 @@
                     </div>
                     <!--Sidebar content-->
                 </div>
-                <div class="span10 col-lg-10" id="bodycontent">
+                <div class="span10 col-lg-10 col-md-10 col-sm-10 col-xs-10" id="bodycontent">
                     <input type='text' placeholder='Enter Username' id='input' />
                     <input type='submit' value='Click Me!' id='submit' onClick='insertItem()' />
                         <div class='col-lg-10'  id='container'>
